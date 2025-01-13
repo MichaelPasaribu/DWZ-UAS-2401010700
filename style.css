@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2235F1;
+    background-color: #00103c;
     border-bottom: 1px solid #ffffff;
     position: fixed;
     top: 0;
@@ -17,20 +17,20 @@
 }
 
 .container-fluid .navbar-brand{
-    color: red;
+    color: #ff2553;
 }
 
 .container-fluid .navbar-brand span{
-    color: rgb(135, 135, 231);
+    color: #ffb608;
 }
 
 .navbar .container-fluid .btn{
-    color: blue;
-    background-color: aqua;
+    color: white;
+    background-color: #3d154b;
 }
 
 .navbar .container-fluid .btn:hover{
-    background-color: black;
+    background-color: #00f032;
     color: aliceblue;
 }
 
