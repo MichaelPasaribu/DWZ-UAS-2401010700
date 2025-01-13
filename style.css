@@ -1,0 +1,68 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2235F1;
+    border-bottom: 1px solid #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.container-fluid a{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid .navbar-brand{
+    color: red;
+}
+
+.container-fluid .navbar-brand span{
+    color: rgb(135, 135, 231);
+}
+
+.navbar .container-fluid .btn{
+    color: blue;
+    background-color: aqua;
+}
+
+.navbar .container-fluid .btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.hero{
+    min-height: 100vh;
+    padding-top: 12rem;
+    align-items: center;
+    background-image: url('insert some_code here.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ede49e;
+    background-position: center;
+    position: relative;
+    bottom: 0;
+}
+
+.styling{
+    min-height: 100vh;
+    padding-top: 12rem;
+    align-items: center;
+    background-image: url('if.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    bottom: 0;
+}
+
+.content .container h1{
+    color: white;
+}
+
+.form-group label{
+    color: #ffffff;
+}
